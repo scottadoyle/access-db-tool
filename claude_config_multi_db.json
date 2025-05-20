@@ -1,45 +1,5 @@
 {
   "mcpServers": {
-    "filesystem": {
-      "command": "cmd.exe",
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "C:/Users/sdoyle/Desktop/Projects",
-        "C:/Users/sdoyle/Desktop/Claude"
-      ]
-    },
-    "sequential-thinking": {
-      "command": "cmd.exe",
-      "args": [
-        "/c",
-        "npx",
-        "-y",
-        "@modelcontextprotocol/server-sequential-thinking"
-      ]
-    },
-    "memory": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-memory"
-      ],
-      "env": {
-        "MEMORY_FILE_PATH": "C:/Users/sdoyle/Desktop/Claude/Claude-Memory/memory.json"
-      }
-    },
-    "puppeteer": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-puppeteer"
-      ],
-      "env": {
-        "PUPPETEER_CONNECT_TO_BROWSER_URL": "http://localhost:9222"
-      }
-    },
     "access_db": {
       "command": "py",
       "args": [
