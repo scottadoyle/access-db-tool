@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "access_db": {
+      "command": "py",
+      "args": [
+        "-3.12-32",
+        "C:/Users/sdoyle/Desktop/Projects/Quality System Database AI/access_simple.py"
+      ],
+      "env": {
+        "ACCESS_DB_PATH": "M:/Quality System Database/old/BE/2025/Quality System Database_be 3-2-25 Post Compact.mdb"
+      }
+    }
+  }
+}
